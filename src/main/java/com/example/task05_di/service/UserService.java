@@ -2,9 +2,7 @@ package com.example.task05_di.service;
 
 import com.example.task05_di.model.User;
 import com.example.task05_di.repository.UserRepository;
-import org.springframework.stereotype.Service;
 
-@Service
 public class UserService {
     private UserRepository repository;
 

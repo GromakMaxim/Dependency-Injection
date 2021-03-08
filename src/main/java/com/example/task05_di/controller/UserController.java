@@ -2,9 +2,7 @@ package com.example.task05_di.controller;
 
 import com.example.task05_di.model.User;
 import com.example.task05_di.service.UserService;
-import org.springframework.stereotype.Controller;
 
-@Controller
 public class UserController {
     private UserService userService;
 
